@@ -1,3 +1,4 @@
+%define _empty_manifest_terminate_build 0
 Name:           goverlay
 Version:        0.9.1
 Release:        1
