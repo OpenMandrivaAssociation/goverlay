@@ -1,6 +1,6 @@
 %define _empty_manifest_terminate_build 0
 Name:           goverlay
-Version:        1.3
+Version:        1.5.2
 Release:        1
 Summary:        Graphical UI to help manage Vulkan/OpenGL overlays
 Group:          Graphics/Utilities
