@@ -1,6 +1,6 @@
 %define _empty_manifest_terminate_build 0
 Name:           goverlay
-Version:        1.5.2
+Version:        1.6.1
 Release:        1
 Summary:        Graphical UI to help manage Vulkan/OpenGL overlays
 Group:          Graphics/Utilities
@@ -12,7 +12,7 @@ BuildRequires:  lazarus
 BuildRequires:  pkgconfig(gl)
 BuildRequires:  pkgconfig(x11)
 Requires:       mangohud
-
+Requires:       (p7zip or 7zip)
 Recommends:     git
 Recommends:     mesa-demos
 Recommends:     vkbasalt
