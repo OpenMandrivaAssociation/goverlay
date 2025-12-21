@@ -8,6 +8,7 @@ License:        GPLv3
 URL:            https://github.com/benjamimgois/goverlay
 Source0:        https://github.com/benjamimgois/goverlay/archive/%{version}/%{name}-%{version}.tar.gz
 
+BuildRequires:	make
 BuildRequires:  lazarus
 BuildRequires:  pkgconfig(gl)
 BuildRequires:  pkgconfig(x11)
