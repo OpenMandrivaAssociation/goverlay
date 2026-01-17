@@ -43,5 +43,6 @@ sed -i 's/qt5/qt6/' goverlay.lpi
 %{_bindir}/%{name}
 %{_datadir}/applications/*.desktop
 %{_datadir}/metainfo/*.metainfo.xml
+%{_iconsdir}/hicolor/*x*/apps/io.github.benjamimgois.goverlay.png
 %{_libexecdir}/%{name}
 %{_mandir}/man1/%{name}.1.*
